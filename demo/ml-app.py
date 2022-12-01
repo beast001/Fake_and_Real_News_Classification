@@ -6,6 +6,9 @@ import nltk
 import unidecode
 from word2number import w2n
 import contractions
+import nltk
+
+nltk.download('stopwords')
 
 
 def load_model():
