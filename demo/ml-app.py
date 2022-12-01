@@ -6,9 +6,10 @@ import nltk
 import unidecode
 from word2number import w2n
 import contractions
-import nltk
-
+nltk.download('punkt')
+nltk.download('wordnet')
 nltk.download('stopwords')
+nltk.download('omw-1.4')
 
 
 def load_model():
